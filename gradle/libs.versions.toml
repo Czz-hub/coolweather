@@ -9,7 +9,7 @@ activity = "1.8.0"
 constraintlayout = "2.1.4"
 # 新增的版本号
 glide = "4.16.0"
-litepal = "3.2.3"
+litepal = "3.0.0"
 okhttp = "4.12.0"
 gson = "2.10.1"
 
@@ -23,7 +23,7 @@ activity = { group = "androidx.activity", name = "activity", version.ref = "acti
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 # 新增的依赖项
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
-litepal = { group = "org.litepal.guolindev", name = "core", version.ref = "litepal" }
+litepal = { group = "org.litepal.android", name = "java", version.ref = "litepal" }
 okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 [plugins]

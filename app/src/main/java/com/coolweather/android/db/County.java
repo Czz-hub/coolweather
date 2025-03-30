@@ -1,9 +1,10 @@
 package com.coolweather.android.db;
+import org.litepal.crud.LitePalSupport;
 
 public class County extends LitePalSupport {
     private int id;
     private String countyName; //县名字
-    private int weatherId; //县对应天气的id
+    private String weatherId; //县对应天气的id
     private int cityId; //当前县所属市的id值
 
     public int getId() {
@@ -22,11 +23,11 @@ public class County extends LitePalSupport {
         this.countyName = countyName;
     }
 
-    public int getWeatherId() {
+    public String getWeatherId() {
         return weatherId;
     }
 
-    public void setWeatherId(int weatherId) {
+    public void setWeatherId(String weatherId) {
         this.weatherId = weatherId;
     }
 
